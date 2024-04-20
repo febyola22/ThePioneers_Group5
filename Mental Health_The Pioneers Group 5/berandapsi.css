@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+  --main-color:#2D3250;
+  --white: #ffff;
+  --bg: #2D3250;
+  --border:.1rem solid #F6B17A;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inknut Antiqua", serif;
+}
+ 
+body{
+  background: var(--white);
+}
+
+section{
+  padding: 2rem 7%;
+}
+
+.navbar{
+  background-color: var(--main-color);
+  height: 80px;
+}
+
+.navbar-brand{
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 30px;
+  transition: 0.3s color;
+  font-family: "Inknut Antiqua", serif;
+  font-style: normal;
+}
+
+.login-button {
+  background-color: #3e8bff;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s background-color;
+  font-family: "Inknut Antiqua", serif;
+  font-style: normal;
+}
+
+.login-button:hover {
+  background-color: #749edf;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link {
+  color: #666777;
+  font-weight: 500;
+  position: relative;
+  font-family: "Inknut Antiqua", serif;
+  font-style: normal;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #000;
+}
+
+.offcanvas-header{
+  font-family: "Inconsolata", serif;
+  font-style: normal;
+  background-color: #2D3250;
+  color: #ffffff;
+} 
+
+@media (min-width: 991px){
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #f6b17a;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+  }
+
+  .home .home1{
+    background-position: left;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 991px){
+  section{
+    padding: 2rem;
+  }
+
+  .home .home1{
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.container {
+  color: #424769;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  padding: 4px 18px;
+}
+
+
+.container1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Inconsolata", serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.home {
+  min-height: 50vh;
+  display: flex;
+  align-items: flex-start;
+  background: url(image.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  position: relative;
+  margin-bottom: -32px;
+}
+
+
+.home .homee{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgb(252,247,247);
+  background: linear-gradient(180deg, rgba(252,247,247,0) 66%, rgba(192,186,186,1) 97%);
+}
+
+.home .home1{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 23%, rgba(220,219,219,1) 84%);
+  color: #000;
+  padding: 20px;
+  position: absolute;
+  left: 2ch;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Inconsolata", serif;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.home, .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Sesuaikan ketinggian sesuai kebutuhan */
+  background-color: #f0f0f0; /* Warna latar belakang opsional */
+}
+
+.teks {
+  font-family: 'Inconsolata', monospace; /* Gunakan font Inconsolata */
+  font-size: 24px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  color: #333; /* Warna teks */
+}
+
+
+.content{
+  padding-top: 0;
+}
+
+.row {
+  display: flex; 
+}
+
+.content1, .content2 {
+  flex: 1; 
+  margin: 0
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.teks {
+  font-size: 16px;
+}
+
+.content1 {
+  margin-right: 10px; 
+  background-color: #ffff;
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image2-container {
+  display: flex;
+}
+
+.image2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px; /* Atur ketinggian container sesuai kebutuhan */
+}
+
+
+
+
+
+
