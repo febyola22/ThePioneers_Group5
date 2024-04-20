@@ -1,0 +1,1 @@
+haloo kak, untuk file yang ini kami kirim secara terpisah yaaa karna kemarin salah satu anggota kami mengerjakan menggunakan tailwind css, namun kami bingung untuk menggabungkan dengan file yang lain krna file yang lain ada yang memakai boostrap dan ada yg memakai CSS biasa, jadi untuk file ini kami kirim secara terpisah, terimakasih

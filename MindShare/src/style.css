@@ -1,0 +1,21 @@
+.inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#btn1{
+    text-decoration: none;
+    color: white;
+}
+
+#btn2{
+    text-decoration: none;
+    color: #F6B17A;
+}
+
+#btn3{
+    text-decoration: none;
+    color: black;
+}
+
